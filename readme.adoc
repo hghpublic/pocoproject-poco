@@ -32,3 +32,11 @@ $ cd cmake-build
 $ cmake ..
 $ cmake --build . --config Release
 ----
+
+switches::
++
+[source, cmake]
+----
+ENABLE_TESTS
+ENABLE_SAMPLES
+----
