@@ -219,7 +219,7 @@ option(ENABLE_CPPUNIT
 	"Set to OFF|ON (default is OFF) to enable CppUnit library" OFF)
 
 option(ENABLE_TESTS
-	"Set to OFF|ON (default is OFF) to control build of POCO tests" OFF)
+	"Set to OFF|ON (default is OFF) to control build of POCO tests" ON)
 
 option(ENABLE_TEST_DEPRECATED
 	"Set to OFF|ON (default is OFF) to enable build of tests for deprecated functionality" OFF)
@@ -230,7 +230,7 @@ option(ENABLE_COMPILER_WARNINGS
 	"Set to OFF|ON (default is OFF) to enable additional compiler warnings. Intended primarily for maintainers." OFF)
 
 option(ENABLE_SAMPLES
-	"Set to OFF|ON (default is OFF) to control build of POCO samples" OFF)
+	"Set to OFF|ON (default is OFF) to control build of POCO samples" ON)
 
 option(ENABLE_FUZZING
 	"Set to OFF|ON (default is OFF) to control build of fuzzing targets for oss-fuzz (Clang compiler is required)" OFF)
