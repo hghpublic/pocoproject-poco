@@ -1,1 +1,2 @@
-add_subdirectory(SQLToMongo)
+# BUILD ERROR
+# add_subdirectory(SQLToMongo)
