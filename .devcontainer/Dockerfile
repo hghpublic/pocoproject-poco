@@ -94,18 +94,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 && apt-get -y install --no-install-recommends \
-        # libsdl2-dev \
-        # libglew-dev \
-        # libavif-dev \
-        # libpng-dev \
-        # libjpeg-turbo8-dev \
-        # libmad0-dev \
-        # libuuid1 \
-        # libflac-dev \
-        # libflac++-dev \
-        # libminizip-dev \
-        # libopenal-dev \
-        # catch2 \
+        libssl-dev libmysqlclient-dev libpq-dev \
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 # starship
