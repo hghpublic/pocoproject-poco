@@ -1,0 +1,21 @@
+= poco
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+[IMPORTANT]
+====
+The commits in this branch are highly unstable. I rebase and force push at will.
+
+The history may be rewritten without notice.
+====
+
+== poco
+
+https://pocoproject.org/
+
+https://github.com/pocoproject/poco
+
