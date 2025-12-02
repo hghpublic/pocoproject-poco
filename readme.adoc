@@ -19,3 +19,16 @@ https://pocoproject.org/
 
 https://github.com/pocoproject/poco
 
+=== building
+
+See README.md.
+
+To build poco with cmake::
++
+[source, shell]
+----
+$ mkdir cmake-build
+$ cd cmake-build
+$ cmake ..
+$ cmake --build . --config Release
+----
